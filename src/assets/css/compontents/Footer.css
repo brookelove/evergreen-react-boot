@@ -5,7 +5,10 @@
 }
 .quickLinks {
     display: flex;
+    flex-direction: column;
+    text-align: center;
     list-style: none;
+    text-decoration: underline;
     justify-content: space-evenly;
     width: 20%;
 }

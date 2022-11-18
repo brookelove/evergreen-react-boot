@@ -6,7 +6,12 @@ export default function Headline() {
       <div className="custom-Jumbo">
         <div className="centered-text">
           <h1>Evergreen Body Mod</h1>
-          <Button variant="dark">Look at Our Work</Button>
+          <h3>Est.2021</h3>
+          <Button variant="dark">
+            <a href="/gallery" className="jumboButton">
+              Our Work
+            </a>
+          </Button>
         </div>
       </div>
     </>

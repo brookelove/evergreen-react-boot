@@ -2,13 +2,15 @@ import "../assets/css/compontents/Footer.css";
 export default function Footer() {
   return (
     <div>
-      <footer className="footerContainer">
+      <footer className="footerContainer" variant="dark">
         <ul className="quickLinks">
           <li>
-            <a>Address</a>
+            <a href="https://www.google.com/maps/dir//evergreen+body+mod/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x5490ffa8b52de03b:0x978a7663f745c8b7?sa=X&ved=2ahUKEwjUmO-Eqrf7AhVYIDQIHfe8CzgQ9Rd6BAhVEAU">
+              106 W Meeker, Puyallup, WA 98371
+            </a>
           </li>
           <li>
-            <a>Phone</a>
+            <a href="tel:2532567912">(253) 256-7912</a>
           </li>
           <li>
             <a>Email</a>
@@ -18,7 +20,7 @@ export default function Footer() {
           <p>Evergren Body Mod</p>
           <p>© All Rights Reserved</p>
         </div>
-        <a> ^ Back to Top </a>
+        <a href="/"> ^ Back to Top </a>
       </footer>
     </div>
   );
