@@ -1,8 +1,9 @@
+import "../assets/css/compontents/Footer.css";
 export default function Footer() {
   return (
     <div>
-      <footer>
-        <ul>
+      <footer className="footerContainer">
+        <ul className="quickLinks">
           <li>
             <a>Address</a>
           </li>
@@ -17,7 +18,7 @@ export default function Footer() {
           <p>Evergren Body Mod</p>
           <p>© All Rights Reserved</p>
         </div>
-        <a> ^ Back to Top</a>
+        <a> ^ Back to Top </a>
       </footer>
     </div>
   );

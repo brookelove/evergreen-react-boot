@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import logo from "../assets/images/logo.png";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 function CollapsibleExample() {
@@ -9,12 +10,12 @@ function CollapsibleExample() {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="/">
-          <img src="" />
+          <img src={logo} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="artits">Artists</Nav.Link>
+            <Nav.Link href="artists">Artists</Nav.Link>
             <Nav.Link href="/pricing">Pricing</Nav.Link>
             <Nav.Link href="/pricing">Pricing</Nav.Link>
           </Nav>

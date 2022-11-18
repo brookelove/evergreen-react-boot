@@ -1,0 +1,11 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%
+}
+.quickLinks {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 20%;
+}
