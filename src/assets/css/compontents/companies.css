@@ -1,4 +1,8 @@
-.companyContianer {
-  background-color: salmon;
-  height: 100vh;
+.companyContainer {
+  text-align: center;
+}
+.companyBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }

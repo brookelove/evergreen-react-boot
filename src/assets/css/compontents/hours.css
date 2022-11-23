@@ -1,9 +1,26 @@
-.gridContainer {
-  display: grid;
+.hoursOpen {
+  width: 30%;
 }
+.hourTitle {
+  text-align: center;
+}
+.gridContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.gridItem {
+  display: flex;
+  justify-content: space-between;
+}
+
 .hourLeft {
-  grid-area: left;
+  display: flex;
+  margin-left: 2%;
+  justify-content: space-between;
 }
 .hourRight {
+  margin-left: 2%;
   grid-area: right;
 }

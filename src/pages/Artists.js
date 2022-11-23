@@ -3,6 +3,7 @@ import "../assets/css/pages/artist.css";
 import About_Us from "../components/About";
 export default function Artists() {
   return (
+    <div>
     <div className="artistBackground">
       <h1 className="centerName">Our Artists</h1>
       <div className="artistContainer">
@@ -20,6 +21,7 @@ export default function Artists() {
       <h5>
         <a>Call to set up an appointment</a>
       </h5>
+    </div>
       <About_Us />
     </div>
   );
