@@ -8,6 +8,7 @@ import Policy from "./pages/Policy";
 import Piercings from "./pages/Prices";
 import Contact from "./pages/Contact";
 import About_Us from "./components/About";
+import Gallery from "./components/Carosel";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/policy" element={<Policy />} />
           <Route path="/pricing" element={<Piercings />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
       </BrowserRouter>
       <Footer />

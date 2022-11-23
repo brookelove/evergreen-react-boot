@@ -1,12 +1,10 @@
-import Carousel from "../components/Carosel";
 import Headline from "../components/Jumbotron";
-import Navbar from "../components/Navbar";
-
+import About_Us from "../components/About";
 export default function Home() {
   return (
     <>
       <Headline />
-      <Carousel />
+      <About_Us />
     </>
   );
 }

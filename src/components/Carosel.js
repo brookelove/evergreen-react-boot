@@ -6,7 +6,7 @@ import trinity from "../assets/images/galleryImages/trinity.png";
 import simple from "../assets/images/galleryImages/simple_and_shiny.png";
 import round from "../assets/images/galleryImages/rounnd_the_conch.png";
 import "../assets/css/compontents/carosel.css";
-export default function SlideShow() {
+export default function Gallery() {
   return (
     <Carousel variant="dark">
       <Carousel.Item>
