@@ -25,7 +25,6 @@ export default function Location() {
             rel="noreferrer"
             target={"_blank"}
           >
-            106 W Meeker Puyallup, WA, 98371
           </a>
         </div>
       </div>

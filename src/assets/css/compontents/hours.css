@@ -1,0 +1,9 @@
+.gridContainer {
+  display: grid;
+}
+.hourLeft {
+  grid-area: left;
+}
+.hourRight {
+  grid-area: right;
+}

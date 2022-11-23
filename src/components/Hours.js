@@ -1,27 +1,28 @@
+import "../assets/css/compontents/hours.css";
 export default function Hours() {
   return (
     <div className="hoursOpen">
-      <ul className="gridUl">
-        <h1 className="gridContainer">Hours</h1>
+      <h1>Hours</h1>
+      <ul className="gridContainer">
         <div className="gridItem">
-          <p className="hourInfoL">Sunday</p>
-          <p className="hourInfoR">CLOSED</p>
+          <p className="hourLeft">Sunday</p>
+          <p className="hourRight">CLOSED</p>
         </div>
         <div className="gridItem">
-          <p className="hourInfoL">Monday</p>
-          <p className="hourInfoR">CLOSED</p>
+          <p className="hourLeft">Monday</p>
+          <p className="hourRight">CLOSED</p>
         </div>
         <div className="gridItem">
-          <p className="hourInfoL">Tuesday</p>
-          <p className="hourInfoR">10AM - 6PM</p>
+          <p className="hourLeft">Tuesday</p>
+          <p className="hourRight">10AM - 6PM</p>
         </div>
         <div className="gridItem">
-          <p className="hourInfoL">Wednesday</p>
-          <p className="hourInfoR">10AM - 6PM</p>
+          <p className="hourLeft">Wednesday</p>
+          <p className="hourRight">10AM - 6PM</p>
         </div>
         <div className="gridItem">
-          <p className="hourInfoL">Thursday</p>
-          <p className="hourInfoR">10AM - 6PM</p>
+          <p className="hourLeft">Thursday</p>
+          <p className="hourRight">10AM - 6PM</p>
         </div>
         <div className="gridItem">
           <p className="hourInfoL">Friday</p>
