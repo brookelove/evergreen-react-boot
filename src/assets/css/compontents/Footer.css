@@ -1,10 +1,14 @@
 .footerContainer {
     display: flex;
     justify-content: space-around;
-    width: 100%
+    width: 100%;
+    background-color: rgba(19, 18, 18, 0.908);
+    color: whitesmoke;
 }
 .quickLinks {
     display: flex;
+    padding-top: 1%;
+    /* align-items: center; */
     flex-direction: column;
     text-align: center;
     list-style: none;

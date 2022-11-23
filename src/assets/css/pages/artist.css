@@ -1,6 +1,14 @@
+
+.artistBackground {
+    color: whitesmoke;
+    background-image:url("../../images/backgrounds/torn-posters.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .artistContainer {
     display: flex;
     justify-content: space-around;
+    
 }
 .mattContianer{
     width: 50%;

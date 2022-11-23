@@ -1,3 +1,10 @@
+.carouselBackground {
+    background-image: url("../../images/backgrounds/concrete.avif");
+    height: 100vh;
+}
+.customCarousel {
+    padding: 15% 0 0 0;
+}
 .gallery-img {
     display: flex;
     justify-content: center;
@@ -6,5 +13,9 @@
 }
 
 .carousel {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
+.carouselCaption {
+    padding: 30% 0 0 0;
+}
+

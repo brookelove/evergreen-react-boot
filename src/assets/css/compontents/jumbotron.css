@@ -1,3 +1,4 @@
+
 /* .darkTransparent {
     background-color: rgba(0, 0, 0, 0.143);
     width: 100vw;
@@ -10,8 +11,12 @@
     object-fit: cover;
     width: 100vw;
     height: 100vh;
-    margin-bottom: 20%;
+    /* margin-bottom: 20%; */
 }
+.animate__animated .animate__fadeInLeft {
+    --animate-duration: 2s;
+  }
+  
 .centered-text {
     width: 100vw;
     height: 100vh;
@@ -26,4 +31,16 @@ a {
 }
 .jumboButton {
     color:whitesmoke;
+    background-color: black;
+    border: black;
+}
+.jumboButton:hover{
+    background-color: whitesmoke;
+    
+}
+.jumboLink {
+    color:whitesmoke !important;
+}
+.jumboLink:hover {
+    color:black !important;
 }

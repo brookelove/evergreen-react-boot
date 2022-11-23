@@ -13,14 +13,16 @@ export default function Footer() {
             <a href="tel:2532567912">(253) 256-7912</a>
           </li>
           <li>
-            <a>Email</a>
+            <a href="mailTo:evergreenbodymod@gmail.com">
+              evergreenbodymod@gmail.com
+            </a>
           </li>
         </ul>
         <div>
           <p>Evergren Body Mod</p>
-          <p>© All Rights Reserved</p>
+          {/* <p>© All Rights Reserved</p> */}
         </div>
-        <a href="/"> ^ Back to Top </a>
+        <a href="/"> ^ Back to Home </a>
       </footer>
     </div>
   );

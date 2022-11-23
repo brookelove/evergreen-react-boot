@@ -1,0 +1,12 @@
+.priceBackground {
+    background-image: url("../../images/backgrounds/woodbackground.png");
+}
+.tableContainer {
+    display: flex;
+    justify-content: center;
+    border-radius: 20% !important;
+}
+.tablePrices {
+    margin: 3% 0 3% 0;
+    width: 60%;
+}

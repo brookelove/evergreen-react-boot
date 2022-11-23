@@ -1,14 +1,17 @@
 import { Button } from "react-bootstrap";
 import "../assets/css/compontents/jumbotron.css";
+import "animate.css";
 export default function Headline() {
   return (
     <>
       <div className="custom-Jumbo">
         <div className="centered-text">
-          <h1>Evergreen Body Mod</h1>
+          <h1 className="animate__animated animate__fadeInLeft">
+            Evergreen Body Mod
+          </h1>
           <h3>Est.2021</h3>
-          <Button variant="dark">
-            <a href="/gallery" className="jumboButton">
+          <Button className="jumboButton">
+            <a href="/gallery" className="jumboLink">
               Our Work
             </a>
           </Button>

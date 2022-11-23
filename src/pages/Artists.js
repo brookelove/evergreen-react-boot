@@ -1,9 +1,10 @@
 import Matt from "../assets/images/artists/MJ_pose.png";
 import "../assets/css/pages/artist.css";
+import About_Us from "../components/About";
 export default function Artists() {
   return (
-    <>
-      <h1>Artists</h1>
+    <div className="artistBackground">
+      <h1 className="centerName">Our Artists</h1>
       <div className="artistContainer">
         <section className="mattContianer">
           <div className="centerName">
@@ -19,6 +20,7 @@ export default function Artists() {
       <h5>
         <a>Call to set up an appointment</a>
       </h5>
-    </>
+      <About_Us />
+    </div>
   );
 }
