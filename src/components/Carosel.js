@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { AiOutlineClose } from "react-icons/ai";
 import Modal from "react-bootstrap/Modal";
 import spider from "../assets/images/galleryImages/spider_and_web.png";
 import eye from "../assets/images/galleryImages/eye_leaf_trinity.png";
@@ -7,10 +6,7 @@ import octopus from "../assets/images/galleryImages/octopus_and_snake.png";
 import trinity from "../assets/images/galleryImages/trinity.png";
 import simple from "../assets/images/galleryImages/simple_and_shiny.png";
 import round from "../assets/images/galleryImages/rounnd_the_conch.png";
-import { Card } from "react-bootstrap";
 import "../assets/css/compontents/carosel.css";
-import userEvent from "@testing-library/user-event";
-
 export default function Gallery() {
   const galleryImages = [
     {
@@ -70,12 +66,10 @@ export default function Gallery() {
   };
   return (
     <div className="carouselBackground">
-      {/* className={showModal ? "showModal open" : "showModal"} */}
       <div className={`largePhoto ${showModal ? "active" : "inactive"}`}>
         <img src={tempPicture} />
         <h2>{tempTitle}</h2>
         <p>{tempDes}</p>
-        <AiOutlineClose />
       </div>
       <div className="gallery">
         {galleryImages.map((item, index) => {
