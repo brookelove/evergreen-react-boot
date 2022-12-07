@@ -66,7 +66,7 @@ export default function Gallery() {
   };
   return (
     <div className="carouselBackground">
-      <div className={`largePhoto ${showModal ? "active" : "inactive"}`}>
+      <div className={`lrgImgContainer ${showModal ? "active" : "inactive"}`}>
         <img src={tempPicture} />
         <h2>{tempTitle}</h2>
         <p>{tempDes}</p>

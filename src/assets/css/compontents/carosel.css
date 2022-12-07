@@ -5,6 +5,7 @@
   column-count: 3;
   column-width: 33%;
   padding: 0 12px;
+  /* position: fixed; */
 }
 .gallery .pictures {
   -webkit-transition: all 350ms ease;
@@ -15,15 +16,38 @@
 .gallery .pictures:hover {
   filter: opacity(.8)
 }
-.largePhoto.active {
+.lrgImgContainer {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  /* bottom: 0; */
+  left: 0;
+  /* right: 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  overflow: hidden;
+  opacity: 0;
+  z-index: 999;
+}
+.lrgImgContainer.active {
+ 
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
   transition: all 0.5s ease;
 }
-.largePhoto.inactive {
+.lrgImgContainer.inactive {
   opacity: 0;
-  visibility: visible;
+  visibility: hidden;
   transform: translateY(-20px);
   transition: all 0.5s ease;
 }
