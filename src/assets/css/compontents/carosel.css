@@ -1,20 +1,51 @@
 .carouselBackground {
   background-image: url("../../images/backgrounds/concrete.avif");
-  height: 120%;
 }
-.customCarousel {
-  padding: 15% 0 0 0;
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-count: 33%;
+  column-width: 33%;
+  padding: 0 12px;
 }
-.gallery-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50%;
-}
-
-.carousel {
+.gallery .pictures {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
   margin-bottom: 10%;
 }
-.carouselCaption {
-  padding: 30% 0 0 0;
+.gallery .pictures:hover {
+  filter: opacity(.8)
+}
+.largePhoto.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: all 0.5s ease;
+}
+.largePhoto.inactive {
+  opacity: 0;
+  visibility: visible;
+  transform: translateY(-20px);
+  transition: all 0.5s ease;
+}
+@media (max-width: 991px){
+  .gallery {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    
+  }
+}
+@media (max-width: 480px){
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+  -moz-column-count: 100%;
+  column-width: 100%;
+  }
 }
