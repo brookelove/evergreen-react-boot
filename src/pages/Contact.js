@@ -4,7 +4,8 @@ import "../assets/css/pages/contact.css";
 export default function Contact() {
   return (
     <>
-      <div className="locationAndHoursContainer">
+      <h1>Check us Out</h1>
+      <div className="locationHourContainer">
         <Location />
         <Hours />
       </div>

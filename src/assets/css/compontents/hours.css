@@ -1,9 +1,8 @@
-.hoursOpen {
-  width: 30%;
+/* .hoursOpen {
+  width: 40%;
+
 }
-.hourTitle {
-  text-align: center;
-}
+
 .gridContainer {
   display: flex;
   width: 100%;
@@ -23,4 +22,33 @@
 .hourRight {
   margin-left: 2%;
   grid-area: right;
+} */
+.hoursOpen {
+  width: 100%;
+  padding-top: 5%;
+  font-weight: 600;
+}
+/* .line {
+  height: 20px;
+  width: 50px;
+  color: rgb(34,34,34)
+} */
+.hourTitle{
+  text-decoration: underline;
+}
+.gridContiner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.hourTitle{
+  text-align: center;
+}
+.gridItem {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+
 }

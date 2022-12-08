@@ -2,7 +2,8 @@ import "../assets/css/compontents/hours.css";
 export default function Hours() {
   return (
     <div className="hoursOpen">
-      <h1 className="hourTitle">Hours</h1>
+      <h3 className="hourTitle">Hours</h3>
+      <span className="line"></span>
       <ul className="gridContainer">
         <div className="gridItem">
           <p className="hourLeft">Sunday</p>
@@ -33,7 +34,7 @@ export default function Hours() {
           <p className="hourRight">10AM - 6PM</p>
         </div>
       </ul>
-      <p className="centerName">Holidays might affect these hours</p>
+      <p className="centerName">*Holidays might affect these hours*</p>
     </div>
   );
 }

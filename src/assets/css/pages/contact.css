@@ -1,6 +1,40 @@
-.locationAndHoursContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 100%;
+
+.locationHourContainer {
+  padding: 5%;
+  column-count: 2;
+}
+@media (max-width: 991px){
+  .locationHourContainer {
+    padding: 1%;
+    column-count: 2;
+    column-gap: 12%;
+  }
+}
+@media (max-width: 480px){
+  .locationHourContainer {
+    column-count: 1;
+    column-width: 100%;
+  }
+  iframe {
+    width: 381px;
+    height: 361px;
+  }
+}
+@media (max-width: 425px){
+  iframe {
+    width: 410px;
+    height: 361px;
+  }
+}
+@media (max-width: 375px){
+  iframe {
+    width: 369px;
+    height: 301px;
+  }
+}
+@media (max-width: 325px){
+  iframe {
+    width: 310px;
+    height: 301px;
+  }
 }
