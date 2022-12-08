@@ -1,5 +1,5 @@
 import { Button } from "react-bootstrap";
-import "../assets/css/compontents/jumbotron.css";
+import "../assets/css/compontents/headline.css";
 import "animate.css";
 export default function Headline() {
   return (
@@ -10,11 +10,11 @@ export default function Headline() {
             Evergreen Body Mod
           </h1>
           <h3>Est.2021</h3>
-          <Button className="jumboButton">
-            <a href="/gallery" className="jumboLink">
-              Our Work
-            </a>
-          </Button>
+          <a href="/gallery" className="jumboLink">
+            <button className="galleryBtn">
+              <h6 className="galleryTxt" data-text="Our Work"></h6>
+            </button>
+          </a>
         </div>
       </div>
     </>

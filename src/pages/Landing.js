@@ -1,4 +1,4 @@
-import Headline from "../components/Jumbotron";
+import Headline from "../components/Headline";
 
 export default function Home() {
   return (
