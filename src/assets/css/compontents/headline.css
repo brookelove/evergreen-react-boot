@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url("https://use.typekit.net/pik0zjx.css");
+/* @import url("https://use.typekit.net/pik0zjx.css"); */
+
+body {
+    font-family: 'Source Serif Pro', serif;
+}
+.custom-Jumbo {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)),url("../../images/zoomed_landing.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.animate__animated .animate__fadeInLeft {
+    --animate-duration: 2s;
+  }
+.headTitle {
+    font-family: mencken-std, sans-serif;
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap ;
+    /* font-family: reagan, sans-serif !important; */
+}
+  
+.centered-text {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: whitesmoke;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.galleryBtn {
+    border: none;
+    margin: 4px 2px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 16px;
+    color: rgb(34, 34, 34);
+    background: whitesmoke;
+    background: linear-gradient(to left, whitesmoke 50%, rgb(34,34,34) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+.galleryBtn:hover {
+    /* color:linear-gradient(to left, whitesmoke 50%, black 50%) right; */
+    background-position: left;
+    /* flood-color: black; */
+}
+
+h6.galleryTxt::before {
+    color: rgb(34, 34, 34)
+}
+h6.galleryTxt {
+    padding:0%;
+    margin: 0%;
+    color: rgb(34, 34, 34);
+}
+h6.galleryTxt::after {
+    content: attr(data-text);
+    color: rgb(34, 34, 34);
+    transition: 0.5s ease-out;
+}
+h6.galleryTxt:hover::after {
+    width:100%;
+    color: whitesmoke;
+}

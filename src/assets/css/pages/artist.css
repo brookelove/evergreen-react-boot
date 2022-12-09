@@ -1,35 +1,35 @@
 .artistBackground {
-  color: rgb(53, 49, 49);
-  background-image: url("../../images/backgrounds/lennon-wall.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.transparentArtist {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: rgba(245, 245, 245, 0.708);
-  width: 70%;
+    color: rgb(34,34,34);
+    background-image:url("../../images/backgrounds/lennon-wall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .artistContainer {
-  display: flex;
-  justify-content: space-around;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* justify-content: center; */
+
+    
 }
-.mattContianer {
-  width: fit-content;
-  height: 65%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* background-color: rgba(245, 245, 245, 0.708); */
+.mattContianer{
+    width: 50%;
+    display: flex;
+    font-weight: 500;
+    flex-direction: column;
+    background-color: rgba(245, 245, 245, 0.456); 
+    justify-content: center;
 }
 .mattJolly {
   margin: 3% 3% 0 3%;
   width: 65%;
+}
+.avaContainer {
+    background-color: rgba(245, 245, 245, 0.456); 
+}
+.artistName {
+    font-weight: 800;
 }
 .centerName {
   text-align: center;

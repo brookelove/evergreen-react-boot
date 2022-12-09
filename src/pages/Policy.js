@@ -1,7 +1,7 @@
 export default function Policy() {
   return (
     <>
-      <h1>Policy</h1>
+      <h1 className="galleryTitle">Policy</h1>
     </>
   );
 }

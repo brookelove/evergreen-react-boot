@@ -1,8 +1,22 @@
 .companyContainer {
+  padding: 5% 0 5% 0;
   text-align: center;
+  
+  background-color: whitesmoke;
+}
+.companyContainer h1 {
+  color: rgb(34,34,34);
 }
 .companyBox {
+  margin-top: 5%;
   display: flex;
   flex-wrap: wrap;
+  font-weight: 600;
+  font-size: larger;
+  color: rgb(34,34,34);
+  text-decoration: underline;
   justify-content: space-evenly;
+}
+.companyLogo {
+  width: 150px;
 }

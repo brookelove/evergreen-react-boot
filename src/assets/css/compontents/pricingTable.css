@@ -3,27 +3,56 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.tableContainer {
+.table {
+  border-radius: 0 5% 5%;
+}
+.piercingTitle {
+  color: whitesmoke;
+  padding-top: 4%;
+}
+tbody, td, tfoot, th, thead, tr{
+  border-style: none;
+}
+.brNone {
+  color: none;
+}
+.table>:not(caption)>*>* {
+  font-weight: 600;
+}
+div.tableContainer {
   display: flex;
   justify-content: center;
-  border-radius: 20% !important;
+  padding-bottom: 4%;
 }
 .tablePrices {
   margin: 3% 0 3% 0;
   width: 60%;
 }
-.transparent {
-  background-color: rgb(236, 231, 222);
+tbody {
+  margin-top: 20%;
 }
-.piercingHeader {
-  background-color: rgb(27, 26, 26);
+.tableHeader {
+  background-color: rgb(34,34,34);
   color: whitesmoke;
 }
-.pricingInfo {
+.miniHeader{
+  width: 208.5%;
+  padding: 1% 0 1% 0;
+  background-color: rgb(34,34,34);
+  color: whitesmoke;
+}
+.transparent {
+  background-color: rgba(236, 231, 222, 0.258);
+  
+}
+.pricingNotes {
+  background-color: rgb(34,34,34);
+  padding: 5%;
+  line-height: 0.5;
+  height: 100%;
+  color: whitesmoke;
   display: flex;
-  font-size: large;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: whitesmoke;
 }
