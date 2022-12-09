@@ -1,0 +1,9 @@
+.socialTitle {
+  padding: 5% 0 1% 0 !important;
+}
+
+.socialIcons {
+  display: flex;
+  padding: 3%;
+  justify-content: space-evenly;
+}
