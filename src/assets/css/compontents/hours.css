@@ -33,8 +33,9 @@
   width: 50px;
   color: rgb(34,34,34)
 } */
-.hourTitle{
-  text-decoration: underline;
+.hoursTitle{
+  /* text-decoration: underline; */
+  font-size: 270% !important;
 }
 .gridContiner {
   width: 100%;
