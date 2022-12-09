@@ -138,7 +138,7 @@ export default function Gallery() {
       img: lunarMothCZ,
       title: "spider",
       descrption: "spider caught in web",
-      JM: "Tawapa",
+      JM: "Tawapa & Neometal",
     },
     {
       id: 18,
@@ -166,7 +166,7 @@ export default function Gallery() {
       img: simpleDouble,
       title: "spider",
       descrption: "spider caught in web",
-      JM: "Tawapa",
+      JM: "NeoMetal",
     },
     {
       id: 22,
@@ -194,7 +194,7 @@ export default function Gallery() {
       img: shinySpider,
       title: "spider",
       descrption: "spider caught in web",
-      JM: "Tawapa",
+      JM: "Invictus",
     },
   ];
   const [showModal, setModal] = useState(false);
