@@ -22,7 +22,7 @@ tr {
   color: none;
 } */
 .table > :not(caption) > * > * {
-  font-weight: 600;
+  font-weight: 700;
 }
 div.tableContainer {
   display: flex;
@@ -41,13 +41,14 @@ tbody {
   color: whitesmoke;
 }
 .miniHeader {
-  width: 203.5%;
+  width: 204%;
   padding: 1% 0 1% 0;
+  font-weight: 800;
   background-color: rgb(34, 34, 34);
   color: whitesmoke;
 }
 .transparent {
-  background-color: rgba(236, 231, 222, 0.258);
+  background-color: rgba(236, 231, 222, 0.573);
 }
 .pricingNotes {
   background-color: rgb(34, 34, 34);
