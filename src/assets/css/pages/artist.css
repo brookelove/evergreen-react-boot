@@ -1,24 +1,36 @@
 
 .artistBackground {
-    color: whitesmoke;
-    background-image:url("../../images/backgrounds/torn-posters.jpg");
+    color: rgb(34,34,34);
+    background-image:url("../../images/backgrounds/lennon-wall.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .artistContainer {
+    width: 90%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    /* justify-content: center; */
+
     
 }
 .mattContianer{
     width: 50%;
     display: flex;
+    font-weight: 500;
     flex-direction: column;
+    background-color: rgba(245, 245, 245, 0.456); 
     justify-content: center;
 }
 .mattJolly {
     margin: 3% 3% 0 3%;
     width: 75%;
+}
+.avaContainer {
+    background-color: rgba(245, 245, 245, 0.456); 
+}
+.artistName {
+    font-weight: 800;
 }
 .centerName {
     text-align: center;

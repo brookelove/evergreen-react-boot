@@ -66,10 +66,15 @@ export default function Gallery() {
   };
   return (
     <div className="carouselBackground">
+      <h1 className="galleryTitle"> Gallery </h1>
       <div className={`lrgImgContainer ${showModal ? "active" : "inactive"}`}>
-        <img src={tempPicture} />
-        <h2>{tempTitle}</h2>
-        <p>{tempDes}</p>
+        <div className="whiteBox">
+          <img src={tempPicture} className="blownImage" />
+          <div className="galleryDesc">
+            <h2 className="tempTitle">{tempTitle}</h2>
+            <p>{tempDes}</p>
+          </div>
+        </div>
       </div>
       <div className="gallery">
         {galleryImages.map((item, index) => {

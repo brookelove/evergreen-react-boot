@@ -2,7 +2,7 @@ import "../assets/css/compontents/hours.css";
 export default function Hours() {
   return (
     <div className="hoursOpen">
-      <h3 className="hourTitle">Hours</h3>
+      <h3 className="galleryTitle">Hours</h3>
       <span className="line"></span>
       <ul className="gridContainer">
         <div className="gridItem">

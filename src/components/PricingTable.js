@@ -2,7 +2,7 @@ import "../assets/css/compontents/pricingTable.css";
 export default function Piercings() {
   return (
     <div className="priceBackground">
-      <h1 className="centerName piercingTitle">Prices</h1>
+      <h1 className="centerName galleryTitle">Prices</h1>
       <div className="tableContainer">
         <table class="table table-hover tablePrices transparent">
           <thead class="centerName table tableHeader">
@@ -13,7 +13,7 @@ export default function Piercings() {
           </thead>
           <br />
           <tbody class="centerName">
-            <h6>Ears</h6>
+            <h6 className="miniHeader">Ears</h6>
             <tr>
               <th scope="row">Ear Lobes</th>
               <td>$80+</td>
@@ -30,7 +30,7 @@ export default function Piercings() {
               <th scope="row">Industrial</th>
               <td>$100+</td>
             </tr>
-            <h6>Facial</h6>
+            <h6 className="miniHeader">Facial</h6>
             <tr>
               <th scope="row">All Single Lip</th>
               <td>$80+</td>
@@ -47,7 +47,7 @@ export default function Piercings() {
               <th scope="row">Septum</th>
               <td>$80+</td>
             </tr>
-            <h6>Body</h6>
+            <h6 className="miniHeader">Body</h6>
             <tr>
               <th scope="row">Dermal</th>
               <td>$120 | $75 each aditional</td>

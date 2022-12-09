@@ -5,7 +5,7 @@ import "../assets/css/compontents/companies.css";
 export default function Company() {
   return (
     <div className="companyContainer">
-      <h1 className="centerName">Jewelry Manufactures</h1>
+      <h1 className="centerName galleryTitle">Jewelry Manufactures</h1>
       <div className="companyBox">
         <section>
           <a href="https://invictusbodyjewelry.com/" target={"_blank"}>

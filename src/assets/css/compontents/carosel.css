@@ -1,11 +1,16 @@
 .carouselBackground {
   background-image: url("../../images/backgrounds/concrete.avif");
 }
+.galleryTitle {
+  text-align: center;
+  font-size: 300%;
+  font-weight: 700;
+  padding:5% 0 2.5% 0;
+}
 .gallery {
   column-count: 3;
   column-width: 33%;
-  padding: 0 12px;
-  /* position: fixed; */
+  padding:2.5% 2% 5% 2%;
 }
 .gallery .pictures {
   -webkit-transition: all 350ms ease;
@@ -19,11 +24,10 @@
 .lrgImgContainer {
   width: 100%;
   height: 100vh;
+  background-color: rgba(0, 0, 0, 0.372);
   position: fixed;
   top:0;
-  /* bottom: 0; */
   left: 0;
-  /* right: 0; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,6 +54,27 @@
   visibility: hidden;
   transform: translateY(-20px);
   transition: all 0.5s ease;
+}
+.whiteBox {
+  background-color: whitesmoke;
+  border:rgba(34, 34, 34, 0.372) 5px solid;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.blownImage {
+  /* height: 300px; */
+  width: 500px;
+  padding: 5% 0 5% 0;
+}
+.galleryDesc {
+  text-align: center;
+}
+.tempTitle {
+  font-size: 250%;
+  font-weight: 700;
 }
 @media (max-width: 991px){
   .gallery {

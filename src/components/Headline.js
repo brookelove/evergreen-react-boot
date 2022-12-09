@@ -6,8 +6,8 @@ export default function Headline() {
     <>
       <div className="custom-Jumbo">
         <div className="centered-text">
-          <h1 className="animate__animated animate__fadeInLeft">
-            Evergreen Body Mod
+          <h1 className="animate__animated animate__fadeInLeft headTitle">
+            EVERGREEN BODY MOD
           </h1>
           <h3>Est.2021</h3>
           <a href="/gallery" className="jumboLink">
