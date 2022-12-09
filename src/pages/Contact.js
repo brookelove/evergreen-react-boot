@@ -1,6 +1,8 @@
 import Hours from "../components/Hours";
 import Location from "../components/Location";
+import EmailUs from "../components/Email";
 import "../assets/css/pages/contact.css";
+
 export default function Contact() {
   return (
     <>
@@ -8,6 +10,7 @@ export default function Contact() {
         <Location />
         <Hours />
       </div>
+      <EmailUs />
     </>
   );
 }

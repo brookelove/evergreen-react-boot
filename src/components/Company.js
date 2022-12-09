@@ -2,7 +2,7 @@ import "../assets/css/compontents/companies.css";
 export default function Company() {
   return (
     <div className="companyContainer">
-      <h1 className="centerName">Companies We Work With</h1>
+      <h1 className="centerName">Manufactures We Work With</h1>
       <div className="companyBox">
         <section>
           <a href="https://invictusbodyjewelry.com/" target={"_blank"}>

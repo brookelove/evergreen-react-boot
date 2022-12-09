@@ -13,5 +13,17 @@
   width: 60%;
 }
 .transparent {
-  background-color: rgba(236, 231, 222, 0.469);
+  background-color: rgb(236, 231, 222);
+}
+.piercingHeader {
+  background-color: rgb(27, 26, 26);
+  color: whitesmoke;
+}
+.pricingInfo {
+  display: flex;
+  font-size: large;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
 }

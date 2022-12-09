@@ -18,7 +18,7 @@ function CollapsibleExample() {
           <Nav>
             <Nav.Link href="artists">Artists</Nav.Link>
             <Nav.Link href="/pricing">Pricing</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
+            {/* <Nav.Link href="/about">About</Nav.Link> */}
             <Nav.Link href="/policy">Policy</Nav.Link>
             <Nav.Link href="/gallery">Gallery</Nav.Link>
             <Nav.Link eventKey={2} href="/contact">

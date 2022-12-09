@@ -4,24 +4,28 @@ import About_Us from "../components/About";
 export default function Artists() {
   return (
     <div>
-    <div className="artistBackground">
-      <h1 className="centerName">Our Artists</h1>
-      <div className="artistContainer">
-        <section className="mattContianer">
-          <div className="centerName">
-            <img src={Matt} className="mattJolly" />
-            <h4>Matt Jolly</h4>
+      <div className="artistBackground">
+        <div className="transparentArtist">
+          <h1 className="">Team</h1>
+          <div className="artistContainer">
+            <section className="mattContianer">
+              <div className="centerName">
+                <img src={Matt} className="mattJolly" />
+                <h4>Matt Jolly</h4>
+                <p>Modification Artist / Owner</p>
+              </div>
+            </section>
+            <section className="avaContainer">
+              <img className="ava" />
+              <h4>Ava</h4>
+              <p>Apprentice</p>
+            </section>
           </div>
-        </section>
-        <section className="avaContainer">
-          <img className="ava" />
-          <h4>Ava</h4>
-        </section>
+          {/* <h5>
+          <a>Call to set up an appointment</a>
+        </h5> */}
+        </div>
       </div>
-      <h5>
-        <a>Call to set up an appointment</a>
-      </h5>
-    </div>
       <About_Us />
     </div>
   );

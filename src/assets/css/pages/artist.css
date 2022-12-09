@@ -1,25 +1,37 @@
-
 .artistBackground {
-    color: whitesmoke;
-    background-image:url("../../images/backgrounds/torn-posters.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+  color: rgb(53, 49, 49);
+  background-image: url("../../images/backgrounds/lennon-wall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.transparentArtist {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(245, 245, 245, 0.708);
+  width: 70%;
 }
 .artistContainer {
-    display: flex;
-    justify-content: space-around;
-    
+  display: flex;
+  justify-content: space-around;
 }
-.mattContianer{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.mattContianer {
+  width: fit-content;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: rgba(245, 245, 245, 0.708); */
 }
 .mattJolly {
-    margin: 3% 3% 0 3%;
-    width: 75%;
+  margin: 3% 3% 0 3%;
+  width: 65%;
 }
 .centerName {
-    text-align: center;
+  text-align: center;
 }
+
