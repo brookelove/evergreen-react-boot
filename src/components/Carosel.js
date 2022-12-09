@@ -33,150 +33,175 @@ export default function Gallery() {
       img: spider,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 2,
       img: eye,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 3,
       img: octopus,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 4,
       img: trinity,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 5,
       img: simple,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 6,
       img: round,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 7,
       img: cartilidgeChain,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 8,
       img: curvedCartilidge,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 9,
       img: dagger,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 10,
       img: doubleNostrilChain,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 11,
       img: glitterGold,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 13,
       img: heartFromAbove,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 14,
       img: highLow,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 15,
       img: industrial,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 16,
       img: lightning,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 17,
       img: lunarMothCZ,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 18,
       img: opalSeptum,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 19,
       img: rubyRed,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 20,
       img: septumMedusa,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 21,
       img: simpleDouble,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 22,
       img: threeShiny,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 23,
       img: trinityCartilidge,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 24,
       img: tripple,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
     {
       id: 25,
       img: shinySpider,
       title: "spider",
       descrption: "spider caught in web",
+      JM: "Tawapa",
     },
   ];
   const [showModal, setModal] = useState(false);
   const [tempPicture, setTempPicture] = useState("");
   const [tempTitle, setTitle] = useState("");
   const [tempDes, setDes] = useState("");
+  const [tempJM, setJM] = useState("");
 
   useEffect(() => {
     let space = () => {
@@ -185,10 +210,11 @@ export default function Gallery() {
     document.addEventListener("mousedown", space);
   });
 
-  const getImage = (img, title, descrption) => {
+  const getImage = (img, title, descrption, jm) => {
     setTempPicture(img);
     setTitle(title);
     setDes(descrption);
+    setJM(jm);
     setModal(!showModal);
   };
   return (
@@ -200,6 +226,7 @@ export default function Gallery() {
           <div className="galleryDesc">
             <h2 className="tempTitle">{tempTitle}</h2>
             <p>{tempDes}</p>
+            <p>{tempJM}</p>
           </div>
         </div>
       </div>
@@ -209,7 +236,9 @@ export default function Gallery() {
             <div
               className="pictures"
               key={index}
-              onClick={() => getImage(item.img, item.title, item.descrption)}
+              onClick={() =>
+                getImage(item.img, item.title, item.descrption, item.JM)
+              }
             >
               <img src={item.img} style={{ width: "100%" }} />
             </div>

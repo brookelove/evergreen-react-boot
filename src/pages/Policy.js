@@ -1,4 +1,4 @@
-import "../assets/css/pages/policy.css"
+import "../assets/css/pages/policy.css";
 export default function Policy() {
   return (
     <div className="policyComponent">
