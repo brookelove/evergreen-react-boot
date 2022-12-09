@@ -10,13 +10,18 @@
   color: whitesmoke;
   padding-top: 4%;
 }
-tbody, td, tfoot, th, thead, tr{
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
   border-style: none;
 }
-.brNone {
+/* .brNone {
   color: none;
-}
-.table>:not(caption)>*>* {
+} */
+.table > :not(caption) > * > * {
   font-weight: 600;
 }
 div.tableContainer {
@@ -32,21 +37,20 @@ tbody {
   margin-top: 20%;
 }
 .tableHeader {
-  background-color: rgb(34,34,34);
+  background-color: rgb(34, 34, 34);
   color: whitesmoke;
 }
-.miniHeader{
-  width: 208.5%;
+.miniHeader {
+  width: 203.5%;
   padding: 1% 0 1% 0;
-  background-color: rgb(34,34,34);
+  background-color: rgb(34, 34, 34);
   color: whitesmoke;
 }
 .transparent {
   background-color: rgba(236, 231, 222, 0.258);
-  
 }
 .pricingNotes {
-  background-color: rgb(34,34,34);
+  background-color: rgb(34, 34, 34);
   padding: 5%;
   line-height: 0.5;
   height: 100%;
