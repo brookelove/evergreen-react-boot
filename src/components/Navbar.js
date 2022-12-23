@@ -12,7 +12,7 @@ function CollapsibleExample() {
       expand="lg"
       bg="dark"
       variant="dark"
-      style={{ backgroudColor: "rgb(34,34,34)" }}
+      // style={{ backgroudColor: "rgb(34,34,34)!importan" }}
     >
       <Container>
         <Navbar.Brand href="/">

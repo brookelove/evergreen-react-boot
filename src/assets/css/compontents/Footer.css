@@ -1,18 +1,25 @@
 .footerContainer {
-    display: flex;
-    justify-content: space-around;
     width: 100%;
-    background-color: rgba(19, 18, 18, 0.908);
+    background-color: rgb(34,34,34);
     color: whitesmoke;
+    padding: 3%;
 }
 .quickLinks {
     display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    /* display: flex;
     padding-top: 1%;
     /* align-items: center; */
-    flex-direction: column;
+    /* flex-direction: column;
     text-align: center;
     list-style: none;
     text-decoration: underline;
     justify-content: space-evenly;
-    width: 20%;
+    width: 20%; 
+} */
+}
+.quickLinks a {
+    color: whitesmoke;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out
 }

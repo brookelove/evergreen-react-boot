@@ -18,11 +18,6 @@ export default function Footer() {
             </a>
           </li>
         </ul>
-        <div>
-          <p>Evergren Body Mod</p>
-          {/* <p>© All Rights Reserved</p> */}
-        </div>
-        <a href="/"> ^ Back to Home </a>
       </footer>
     </div>
   );
