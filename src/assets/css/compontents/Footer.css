@@ -7,7 +7,9 @@
 .quickLinks {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
     list-style: none;
+    flex-wrap: wrap;
     /* display: flex;
     padding-top: 1%;
     /* align-items: center; */
