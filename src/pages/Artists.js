@@ -20,9 +20,9 @@ export default function Artists() {
             <p>Apprentice</p>
           </section>
         </div>
-        <h5>
+        {/* <h5>
           <a>Call to set up an appointment</a>
-        </h5>
+        </h5> */}
       </div>
       <About_Us />
     </div>
