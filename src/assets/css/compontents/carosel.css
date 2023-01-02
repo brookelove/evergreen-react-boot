@@ -37,13 +37,12 @@
   z-index: 999;
 }
 .lrgImgContainer.active {
- 
   position: fixed;
   top:0;
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 1000;
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
@@ -76,14 +75,33 @@
   font-size: 250%;
   font-weight: 700;
 }
+@media (max-width: 1024px){
+  .whiteBox {
+    height: 90%
+  }
+  .blownImage {
+    /* padding:5%; */
+    width: 400px;
+  }
+}
 @media (max-width: 991px){
   .gallery {
     column-count: 2;
+  }
+}
+@media (max-width: 768px){
+  .blownImage {
+    width: 300px;
   }
 }
 @media (max-width: 480px){
   .gallery {
     column-count: 1;
     column-width: 100%;
+  }
+}
+@media (max-width: 768px){
+  .blownImage {
+    width: 230px;
   }
 }

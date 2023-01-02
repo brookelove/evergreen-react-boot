@@ -1,4 +1,5 @@
 .policyComponent {
   background-color: rgb(34, 34, 34);
   color: whitesmoke;
+  height: 100vh;
 }
