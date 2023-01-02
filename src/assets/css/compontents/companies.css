@@ -19,4 +19,19 @@
 }
 .companyLogo {
   width: 150px;
+  padding: 2%;
+}
+.subTitle {
+  text-align: center;
+  font-size: 300%;
+  font-weight: 700;
+  padding: 5% 0 2.5% 0;
+}
+@media screen {
+  .subTitle {
+    text-align: center;
+    font-size: 270%;
+    font-weight: 700;
+    padding: 5% 0 2.5% 0;
+  }
 }

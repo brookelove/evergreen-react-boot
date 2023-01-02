@@ -60,4 +60,17 @@ tbody {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+/* .pricingNotes p:first-child {
+  color: salmon;
+  /* line-height: 0.7; 
+} */
+@media  screen and (max-width: 425px ) {
+  .tablePrices{
+    width: 90%;
+  }
+  .pricingNotes {
+    line-height: 1;
+  }
 }

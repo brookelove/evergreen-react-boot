@@ -70,7 +70,7 @@ export default function Piercings() {
         </table>
       </div>
       <div className="pricingNotes">
-        <p> Each price only includes the piercing, not the jewlery after.</p>
+        <p>Each price only includes the piercing, not the jewlery after.</p>
         <p>*All prices are subject to vary*</p>
       </div>
     </div>
