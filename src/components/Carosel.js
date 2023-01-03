@@ -31,78 +31,83 @@ export default function Gallery() {
     {
       id: 1,
       img: spider,
-      title: "spider",
-      descrption: "spider caught in web",
-      JM: "Tawapa",
+      title: "spider and web",
+      descrption:
+        "Rook with 14Kt Yellow Gold Spider Top connected by a 14Kt Solid Gold Chain with 14Kt Yellow Gold Trinity Top piece. Tragus with 14Kt Yellow Gold Threadless with Spiderweb Top",
+      JM: "Invictus",
     },
     {
       id: 2,
       img: eye,
-      title: "spider",
-      descrption: "spider caught in web",
-      JM: "Tawapa",
+      title: "Evil Eye",
+      descrption:
+        "Rook with 14Kt Yellow Gold Threadless Evil Eye. Lower lobe contains 14kT 3-Cluster Marquise CZ Fan top.",
+      JM: "Invictus",
     },
     {
       id: 3,
       img: octopus,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "Octopus & Snake",
+      descrption:
+        "Conch with 14Kt Yellow Gold Threadless with Octopus Top. Rook with Titanium Threadless Snake Top",
       JM: "Tawapa",
     },
     {
       id: 4,
       img: trinity,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "3-Clear Gem",
+      descrption:
+        "Rook with 14Kt White Gold Threadless with Prong Set 3-Clear Gem Trinity Top",
       JM: "Tawapa",
     },
     {
       id: 5,
       img: simple,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "Simple",
+      descrption: "Conch with CZ Gem",
       JM: "Tawapa",
     },
     {
       id: 6,
       img: round,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "Round",
+      descrption: "Tragus with CZ Gem",
       JM: "Tawapa",
     },
     {
       id: 7,
       img: cartilidgeChain,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "Marquise with Chain",
+      descrption: "Double and Tripple. Helix",
       JM: "Tawapa",
     },
     {
       id: 8,
       img: curvedCartilidge,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "Around the Helix",
+      descrption: "Helix with ",
       JM: "Tawapa",
     },
     {
       id: 9,
       img: dagger,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "Pierce Me",
+      descrption: "Tragus with 14Kt Yellow Gold Threadless with Dagger Top",
       JM: "Tawapa",
     },
     {
       id: 10,
       img: doubleNostrilChain,
       title: "spider",
-      descrption: "spider caught in web",
+      descrption: "Nostril pierced with ",
       JM: "Tawapa",
     },
     {
       id: 11,
       img: glitterGold,
       title: "spider",
-      descrption: "spider caught in web",
+      descrption:
+        "Helix with 14Kt Yellow Gold Threadless Lightning Bolt Dagger Top. Rook with ____. Conch with 14Kt Yellow Gold Threadless with Human Heart Top",
       JM: "Tawapa",
     },
     {
@@ -136,43 +141,47 @@ export default function Gallery() {
     {
       id: 17,
       img: lunarMothCZ,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "Lunar Moth",
+      descrption:
+        "Double Conch CZ titanium Gem and 14Kt Yellow Gold Lunar Moth.",
       JM: "Tawapa & Neometal",
     },
     {
       id: 18,
       img: opalSeptum,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "Opal Septum",
+      descrption:
+        "Septum with Titanium with Prong Set Round CZ/Opal Front Facing Hinged Segment Clicker Iodized Gold",
       JM: "Tawapa",
     },
     {
       id: 19,
       img: rubyRed,
       title: "spider",
-      descrption: "spider caught in web",
+      descrption:
+        "Conch crown 14kt Yellow Gold Threadless Crown Set CZ Gem Top. Rook 14Kt Starburt Top",
       JM: "Tawapa",
     },
     {
       id: 20,
       img: septumMedusa,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "Septum and Filtrum",
+      descrption:
+        "Filtrum with 14Kt Yellow Gold Threadless Half Starburst Top with Purple Opal and Septum with Titanium Clustered Prong Set Square CZ Front Facing Hinged Segment Clicker.",
       JM: "Tawapa",
     },
     {
       id: 21,
       img: simpleDouble,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "Simple Double",
+      descrption: "Double lobe with CZ Gem",
       JM: "NeoMetal",
     },
     {
       id: 22,
       img: threeShiny,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "Three Shiny Rooks",
+      descrption: "CZ Gem",
       JM: "Tawapa",
     },
     {
@@ -191,7 +200,7 @@ export default function Gallery() {
     },
     {
       id: 25,
-      img: shinySpider,
+      img: titaniumChain,
       title: "spider",
       descrption: "spider caught in web",
       JM: "Invictus",
@@ -236,9 +245,7 @@ export default function Gallery() {
             <div
               className="pictures"
               key={index}
-              onClick={() =>
-                getImage(item.img, item.title, item.descrption, item.JM)
-              }
+              onClick={() => getImage(item.img, item.title, item.descrption)}
             >
               <img src={item.img} style={{ width: "100%" }} />
             </div>

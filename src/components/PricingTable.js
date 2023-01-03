@@ -71,6 +71,7 @@ export default function Piercings() {
       </div>
       <div className="pricingNotes">
         <p>Each price only includes the piercing, not the jewlery after.</p>
+        <p>All gold piercings are nickle and cadmium free</p>
         <p>*All prices are subject to vary*</p>
       </div>
     </div>
