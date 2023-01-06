@@ -33,7 +33,7 @@ export default function Gallery() {
       img: spider,
       title: "spider and web",
       descrption:
-        "Rook with 14Kt Yellow Gold Spider Top connected by a 14Kt Solid Gold Chain with 14Kt Yellow Gold Trinity Top piece. Tragus with 14Kt Yellow Gold Threadless with Spiderweb Top",
+        "Rook with 14Kt Yellow Gold Spider Top connected by a 14Kt Solid Gold Chain with 14Kt Yellow Gold Trinity Top. Tragus with 14Kt Yellow Gold Spiderweb Top.",
       JM: "Invictus",
     },
     {
@@ -41,7 +41,7 @@ export default function Gallery() {
       img: eye,
       title: "Evil Eye",
       descrption:
-        "Rook with 14Kt Yellow Gold Threadless Evil Eye. Lower lobe contains 14kT 3-Cluster Marquise CZ Fan top.",
+        "Rook with 14Kt Yellow Gold Evil Eye. Lower lobe contains 14kT Marquise CZ Fan.",
       JM: "Invictus",
     },
     {
@@ -49,15 +49,14 @@ export default function Gallery() {
       img: octopus,
       title: "Octopus & Snake",
       descrption:
-        "Conch with 14Kt Yellow Gold Threadless with Octopus Top. Rook with Titanium Threadless Snake Top",
+        "Conch with 14Kt Yellow Gold Octopus. Rook with Titanium Threadless Snake.",
       JM: "Tawapa",
     },
     {
       id: 4,
       img: trinity,
       title: "3-Clear Gem",
-      descrption:
-        "Rook with 14Kt White Gold Threadless with Prong Set 3-Clear Gem Trinity Top",
+      descrption: "Rook with 14Kt White Gold Trinity Top",
       JM: "Tawapa",
     },
     {
@@ -78,7 +77,8 @@ export default function Gallery() {
       id: 7,
       img: cartilidgeChain,
       title: "Marquise with Chain",
-      descrption: "Double and Tripple. Helix",
+      descrption:
+        "Double and Tripple. Helix with 14Kt Yellow Gold Rainbow CZ Cluster",
       JM: "Tawapa",
     },
     {
@@ -92,7 +92,7 @@ export default function Gallery() {
       id: 9,
       img: dagger,
       title: "Pierce Me",
-      descrption: "Tragus with 14Kt Yellow Gold Threadless with Dagger Top",
+      descrption: "Tragus with 14Kt Yellow Gold Dagger",
       JM: "Tawapa",
     },
     {
@@ -107,35 +107,37 @@ export default function Gallery() {
       img: glitterGold,
       title: "spider",
       descrption:
-        "Helix with 14Kt Yellow Gold Threadless Lightning Bolt Dagger Top. Rook with ____. Conch with 14Kt Yellow Gold Threadless with Human Heart Top",
+        "Helix with 14Kt Yellow Gold Lightning Bolt Dagger. Rook with ____. Conch with 14Kt Yellow Gold Anatomical Human Heart",
       JM: "Tawapa",
     },
     {
       id: 13,
       img: heartFromAbove,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "Heart from Above",
+      descrption: "Hekix shown with a Titanium Textured Heart",
       JM: "Tawapa",
     },
     {
       id: 14,
       img: highLow,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "butterfly",
+      descrption:
+        "Tragus with 14Kt Yellow Gold butterly. Conch with a Curved bar CZ",
       JM: "Tawapa",
     },
     {
       id: 15,
       img: industrial,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "industrial",
+      descrption:
+        "Industrial with titanium bar. Second lobe with Pyramid Top. Third lobe with Yellow Gold Circle Top.",
       JM: "Tawapa",
     },
     {
       id: 16,
       img: lightning,
-      title: "spider",
-      descrption: "spider caught in web",
+      title: "Lightning",
+      descrption: "Tragus shows with 14kT Yellow Gold Lightning Top",
       JM: "Tawapa",
     },
     {
@@ -143,15 +145,14 @@ export default function Gallery() {
       img: lunarMothCZ,
       title: "Lunar Moth",
       descrption:
-        "Double Conch CZ titanium Gem and 14Kt Yellow Gold Lunar Moth.",
+        "Double Conch CZ Titanium Gem and 14Kt Yellow Gold Lunar Moth.",
       JM: "Tawapa & Neometal",
     },
     {
       id: 18,
       img: opalSeptum,
       title: "Opal Septum",
-      descrption:
-        "Septum with Titanium with Prong Set Round CZ/Opal Front Facing Hinged Segment Clicker Iodized Gold",
+      descrption: "Septum with Titanium with Round Opal Clicker iodized Gold",
       JM: "Invictus",
     },
     {
@@ -159,7 +160,7 @@ export default function Gallery() {
       img: rubyRed,
       title: "spider",
       descrption:
-        "Conch crown 14kt Yellow Gold Threadless Crown Set CZ Gem Top. Rook 14Kt Starburt Top",
+        "Conch royally embued with 14kt Yellow Gold Crown CZ Gem. Rook 14Kt Starburt Top",
       JM: "Invictus",
     },
     {
@@ -167,7 +168,7 @@ export default function Gallery() {
       img: septumMedusa,
       title: "Septum and Filtrum",
       descrption:
-        "Filtrum with 14Kt Yellow Gold Threadless Half Starburst Top with Purple Opal and Septum with Titanium Clustered Prong Set Square CZ Front Facing Hinged Segment Clicker.",
+        "Filtrum with 14Kt Yellow Gold Starburst with Purple Opal and Septum with Titanium Clustered Square CZ Clicker.",
       JM: "Tawapa",
     },
     {
@@ -188,21 +189,23 @@ export default function Gallery() {
       id: 23,
       img: trinityCartilidge,
       title: "spider",
-      descrption: "spider caught in web",
-      JM: "Tawapa",
+      descrption: "Rook and two Inner ear piercings with Yellow CZ Gems",
+      JM: "Neometal",
     },
     {
       id: 24,
       img: tripple,
       title: "spider",
-      descrption: "spider caught in web",
+      descrption:
+        "Helix with a Titanium Beaded Opal Trinity Top, Conch with Titanium Curved Bar 6 Round CZs, Second Lobe with Titanium Hammered Disk Top",
       JM: "Tawapa",
     },
     {
       id: 25,
       img: titaniumChain,
       title: "spider",
-      descrption: "spider caught in web",
+      descrption:
+        "Double pierced Titanium Threadless Synthetic Opal Tops Nostril piercing with a titanium chain. Bridge pierced with Titanium Threaded Spike Top",
       JM: "Invictus",
     },
   ];
