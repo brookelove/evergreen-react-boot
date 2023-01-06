@@ -99,9 +99,12 @@
     column-count: 1;
     column-width: 100%;
   }
-}
-@media (max-width: 768px){
   .blownImage {
     width: 230px;
   }
 }
+/* @media (max-width: 768px){
+  .blownImage {
+    width: 230px;
+  }
+} */
