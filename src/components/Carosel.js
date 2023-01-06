@@ -152,7 +152,7 @@ export default function Gallery() {
       title: "Opal Septum",
       descrption:
         "Septum with Titanium with Prong Set Round CZ/Opal Front Facing Hinged Segment Clicker Iodized Gold",
-      JM: "Tawapa",
+      JM: "Invictus",
     },
     {
       id: 19,
@@ -160,7 +160,7 @@ export default function Gallery() {
       title: "spider",
       descrption:
         "Conch crown 14kt Yellow Gold Threadless Crown Set CZ Gem Top. Rook 14Kt Starburt Top",
-      JM: "Tawapa",
+      JM: "Invictus",
     },
     {
       id: 20,
