@@ -97,7 +97,30 @@ export default function Policy() {
           under the age of 18 must have parental consent for any non-earlobe
           piercings, regardless of the specific piercing location.
         </p>
+        <p>
+          We strictly adhere to these age requirements and will request
+          identification to verify age before performing any piercing on a
+          minor. Additionally, we encourage open communication between minors
+          and their parents or legal guardians to ensure informed consent and a
+          positive piercing experience for all parties involved. Evergreen Body
+          Mod Management
+        </p>
+
+        <br></br>
+        <p>
+          At Evergreen Body Mod, we believe that piercing is not just an art
+          form, but a reflection of individual expression and identity. We are
+          honored to be part of your journey and pledge to provide a supportive
+          and empowering experience for everyone who chooses to entrust us with
+          their piercing needs. Evergreen Body Mod Management
+        </p>
       </main>
+      <h5>
+        <b>
+          Please note that this "Policy" page is entirely fictional and created
+          for illustrative purposes only.
+        </b>
+      </h5>
     </div>
   );
 }

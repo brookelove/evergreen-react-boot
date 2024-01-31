@@ -63,9 +63,15 @@ export default function About_Us() {
         Ready to embark on your piercing journey? Visit us at 106 W Meeker,
         Puyallup, WA 98371 or give us a call at (253) 256-7912 to schedule your
         appointment today. We can't wait to be a part of your transformation!
-        Evergreen Body Mod Management Please note that this "About" page is
-        entirely fictional and created for illustrative purposes only.
+        Evergreen Body Mod Management.
       </p>
+
+      <h5>
+        <b>
+          Please note that this "About" page is entirely fictional and created
+          for illustrative purposes only.
+        </b>
+      </h5>
     </div>
   );
 }

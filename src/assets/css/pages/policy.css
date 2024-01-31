@@ -10,3 +10,7 @@
   padding:2% 10%;
   text-align: left;
 }
+.aboutContainer h5, .policyComponent h5 {
+  text-align: center;
+  padding:2.5%
+}
