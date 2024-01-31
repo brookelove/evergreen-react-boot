@@ -14,11 +14,11 @@ export default function Artists() {
               <p>Owner/ Body Modification Specialist</p>
             </div>
           </section>
-          <section className="avaContainer">
+          {/* <section className="avaContainer">
             <img className="ava" />
             <h4 className="artistName">Ava</h4>
             <p>Apprentice</p>
-          </section>
+          </section> */}
         </div>
         {/* <h5>
           <a>Call to set up an appointment</a>

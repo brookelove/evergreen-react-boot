@@ -1,5 +1,12 @@
 .policyComponent {
   background-color: rgb(34, 34, 34);
   color: whitesmoke;
-  height: 100vh;
+}
+.policyComponent main {
+  padding:2% 5%;
+  text-align: left;
+}
+.aboutContainer {
+  padding:2% 10%;
+  text-align: left;
 }
