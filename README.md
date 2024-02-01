@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Evergreen Body Mod Piercing Shop Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Evergreen Body Mod Piercing Shop Website! This repository contains the code and assets for our fictional small business piercing shop's online presence. Below, you'll find information on how to navigate the repository and contribute to the development of our website.
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+Evergreen Body Mod is a fictional small business piercing shop located in the heart of Puyallup. They specialize in providing expert piercing services in a safe and inclusive environment. Our mission is to empower individuals to express themselves authentically through body piercing, fostering creativity and self-confidence in our clients.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Expert Piercing Services:** Our team of skilled and experienced piercers offers a wide range of piercing options, from earlobe piercings to more intricate designs.
+- **Premium Jewelry Selection:** They provide a carefully curated selection of high-quality jewelry options, including hypoallergenic materials and unique designs to suit every style and preference.
+- **Clean and Safe Environment:** They adhere to strict sanitation protocols and industry standards to ensure a clean and hygienic environment for every piercing session.
+- **Inclusive Atmosphere:** Evergreen Body Mod celebrates diversity and strives to create a judgment-free space where all individuals feel respected and accepted.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contributing
 
-### `npm test`
+They welcome contributions from the community to improve our website and make it even better! If you'd like to contribute, here's how you can get started:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Fork the Repository:** Click the "Fork" button in the top-right corner of this repository to create your own copy.
+2. **Clone the Repository:** Clone your forked repository to your local machine using Git.
 
-### `npm run build`
+git clone https://github.com/your-username/business-name-piercing.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+markdown
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Make Changes:** Make your desired changes to the code, assets, or documentation.
+4. **Commit Changes:** Commit your changes to your local repository.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+git commit -am "Add your commit message here"
 
-### `npm run eject`
+markdown
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. **Push Changes:** Push your changes to your forked repository on GitHub.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git push origin master
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+markdown
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+6. **Submit a Pull Request:** Go to the original repository on GitHub and click the "New pull request" button to submit your changes for review.
 
-## Learn More
+## Contact Us
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you have any questions, feedback, or concerns, feel free to reach out to us:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Email:** contact@businessname.com
+- **Phone:** (123) 456-7890
+- **Address:** Evergreen Body Mod, Puyallup,WA
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting the Evergreen Body Mod Piercing Shop Website repository!
