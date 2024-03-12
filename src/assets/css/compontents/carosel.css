@@ -96,7 +96,7 @@
     width: 230px;
   }
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 481px){
   .gallery {
     column-count: 1;
   }
@@ -111,7 +111,7 @@
     column-count: 2;
   }
 }
-@media screen and (min-width: 992px){
+@media screen and (min-width: 991px){
   .gallery {
     column-count: 4;
   }

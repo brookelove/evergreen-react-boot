@@ -1,38 +1,8 @@
-/* .hoursOpen {
-  width: 40%;
-
-}
-
-.gridContainer {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.gridItem {
-  display: flex;
-  justify-content: space-between;
-}
-
-.hourLeft {
-  display: flex;
-  margin-left: 2%;
-  justify-content: space-between;
-}
-.hourRight {
-  margin-left: 2%;
-  grid-area: right;
-} */
 .hoursOpen {
   width: 100%;
   padding-top: 5%;
   font-weight: 600;
 }
-/* .line {
-  height: 20px;
-  width: 50px;
-  color: rgb(34,34,34)
-} */
 .hoursTitle{
   /* text-decoration: underline; */
   font-size: 270% !important;
