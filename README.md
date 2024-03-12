@@ -2,6 +2,8 @@
 
 Welcome to the Evergreen Body Mod Piercing Shop Website! This repository contains the code and assets for our fictional small business piercing shop's online presence. Below, you'll find information on how to navigate the repository and contribute to the development of our website.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/880acebb-0d8f-4fcf-adc4-a694577c044e/deploy-status)](https://app.netlify.com/sites/effortless-pothos-753abd/deploys)
+
 ## About
 
 Evergreen Body Mod is a fictional small business piercing shop located in the heart of Puyallup. They specialize in providing expert piercing services in a safe and inclusive environment. Our mission is to empower individuals to express themselves authentically through body piercing, fostering creativity and self-confidence in our clients.
